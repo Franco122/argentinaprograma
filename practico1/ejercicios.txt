@@ -1,0 +1,76 @@
+PARTE 1: VARIABLES
+1. Escribir un programa que:
+a. Defina una variable nombre.
+b. Guarde en la variable nombre tu nombre real.
+c. Defina y asigne, en un mismo paso, la variable apellido. El valor a
+asignar deberá ser tu apellido real.
+d. Repita el paso anterior, pero esta vez definiendo la variable edad y
+asignandole tu edad real.
+e. Por último, imprime por consola un mensaje que respete el siguiente
+formato:
+"Hola, [nombre] [apellido]. Tienes [edad] años."
+Este programa deberá ser guardado en un archivo llamado
+miNombreCompleto.js
+2. ¿De qué manera representaría las variables del ejercicio anterior en un objeto,
+llamémosle persona?
+a. Defina una variable de tipo objeto que lleve el nombre persona, y que
+contenga las variables nombre, apellido y edad del ejercicio anterior con
+sus respectivos valores.
+b. Imprime por consola un mensaje que respete el siguiente formato:
+“Mi objeto persona es el siguiente: [persona]”
+Observación: Deberás usar la función JSON.stringify para poder imprimir
+por consola el objeto persona de una manera legible.
+c. Deberá guardar este programa en un archivo llamado
+miNombreObjecto.js
+
+PARTE 2: COMANDOS BÁSICOS
+3. Operadores aritméticos:
+a. Crea cuatro variables que contengan valores numéricos.
+b. Suma las dos primeras variables y guarda el resultado en otra variable.
+c. Resta la cuarta variable de la tercera y almacena el resultado en otra
+variable.
+d. Multiplica los resultados de los dos últimos pasos juntos, almacenando el
+resultado en una variable llamada resultadoFinal. El producto debe ser
+44. Si no lo es, deberá ajustar algunos de los valores de entrada iniciales.
+e. Escribe un cálculo que verifique si resultadoFinal es un número par.
+Almacene el resultado en una variable llamada esPar.
+f. Imprima por consola un mensaje con el siguiente formato:
+“Mis variables iniciales fueron: [var1], [var2], [var3] y [var4]. La
+respuesta a verificar si el resultado final es par es: [esPar]”
+g. Deberá guardar este programa en un archivo llamado
+operacionesAritmeticas.js
+
+4. Manejo de strings: Deberás crear un programa en el archivo cita.js. En esta
+tarea, se te proporcionan dos variables, cita y substring, que contienen dos
+cadenas. Nos gustaría que:
+a. Recuperes la longitud de la cita y la guardes en una variable llamada
+tamañoDeCita. Deberás imprimir por consola un mensaje con el
+siguiente formato:
+“El tamaño de la cita es: [tamañoCita]”
+b. Busques la posición del índice donde aparece substring en cita, y
+almacenes ese valor en una variable llamada indice. Deberás imprimir
+por consola un mensaje con el siguiente formato:
+“El indice del substring es: [indice]”
+c. Usa una combinación de las variables que tienes y las
+propiedades/métodos de cadena disponibles para recortar la cita original
+a "Tres tristes tigres comen trigo", y la guardes en una variable
+llamada citaRevisada. Por último, para verificar que el valor de
+citaRevisada es correcto, deberás imprimirla por consola.
+
+Los valores iniciales de cita y substring son los siguientes:
+● cita = “Tres tristes tigres comen trigo en un trigal”
+● substring = “tigres comen trigo”
+
+5. Manejo de arreglos: Deberás crear un programa y guardarlo en el archivo
+frutas.js que cumpla los siguiente requisitos:
+a. Crea un arreglo vacío con el nombre de frutas.
+b. Agrega cinco frutas distintas al arreglo. Puede ser mediante el uso de
+variables o no.
+c. Deberás obtener el última fruta agregada y guardarla en la variable
+ultima. Además deberás imprimir su valor por consola, respetando el
+siguiente formato
+“La ultima fruta agregada fue: [ultima]”
+d. Deberás obtener la primera fruta agregada y guardarla en la variable
+primera. Además deberás imprimir su valor por consola, respetando el
+siguiente formato
+“La primera fruta agregada fue: [primera]”
