@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Piedra Papel Tijeras v1</title>
+<!-- LINK CSS -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Bbienve--nido al juego piedra papel tijera</h1>
+  </header>
+  <main>
+    <div id="player-name">
+      <label for="nombre">Ingresa tu nombre: </label>
+      <input type="text" id="nombre">
+      <button id="empezar">Comenzar</button>
+    </div>
+    <div id="opciones">
+      <div class="opcion" id="piedra">
+        <img src="imagenes/piedra.png" alt="Piedra">
+      </div>
+      <div class="opcion" id="papel">
+        <img src="imagenes/papel.png" alt="Papel">
+      </div>
+      <div class="opcion" id="tijera">
+        <img src="imagenes/tijeras.png" alt="Tijera">
+      </div>
+    </div>
+    <div id="puntaje">
+      <p id="jugador">Jugador: 0</p>
+      <p id="computadora">PC: 0</p>
+    </div>
+  </main>
+  <script src = "javascript/main.js"></script>
+</body>
+</html>

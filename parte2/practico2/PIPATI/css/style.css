@@ -1,0 +1,55 @@
+/* seteo basico */
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+    font-size: 24px;
+}
+
+body{
+	background-color:#110F26;
+	color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+.opciones {
+    margin: 10px;
+    display: flex; 
+    flex-direction: row; 
+    min-height: 100px;
+}
+
+.opcion img {
+    width: 100px;
+    height: 100%;
+    background-color: white;
+    padding: 15px;
+    border: 4px solid #333333;
+    border-radius: 20px;
+}
+
+input{
+    padding: 7px;
+    outline: none;
+}
+
+button{
+    padding: 7px;
+    border: 1px solid rgb(0,0,255);
+    color: #000;
+    background-color: #fff;
+    cursor: pointer
+}
+
+button:hover{
+    background-color: #110F26;
+    color: #fff;
+}
